@@ -3,3 +3,15 @@
 Console.WriteLine("Hello, World!");
 
 Console.WriteLine("Hello, World!");
+
+static double GetAverage(int[] arr)
+{
+    double result = 0;
+
+    for (int i = 0; i < arr.Length; i++)
+    {
+        result += i;
+    }
+    
+    return result/ arr.Length;
+}
