@@ -16,7 +16,15 @@ static double GetAverage(int[] arr)
     return result/ arr.Length;
 }
 
+static int GetMax(int[] arr)
+{
+    return arr.Max();
+}
+
 int[] arr = { 1, 2, 3, 4 };
 double average = GetAverage(arr);
+int max = GetMax(arr);
 Console.WriteLine(average);
+Console.WriteLine(max);
+
 
