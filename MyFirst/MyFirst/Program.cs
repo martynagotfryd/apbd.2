@@ -19,3 +19,4 @@ static double GetAverage(int[] arr)
 int[] arr = { 1, 2, 3, 4 };
 double average = GetAverage(arr);
 Console.WriteLine(average);
+
