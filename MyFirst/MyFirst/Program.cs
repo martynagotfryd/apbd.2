@@ -8,6 +8,7 @@ static double GetAverage(int[] arr)
 {
     double result = 0;
 
+ 
     for (int i = 0; i < arr.Length; i++)
     {
         result += i;
