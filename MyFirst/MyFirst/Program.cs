@@ -6,14 +6,14 @@ Console.WriteLine("Hello, World!");
 
 static double GetAverage(int[] arr)
 {
-    double result = 0;
+    double resulttt = 0;
 
     for (int i = 0; i < arr.Length; i++)
     {
-        result += i;
+        resulttt += i;
     }
     
-    return result/ arr.Length;
+    return resulttt/ arr.Length;
 }
 
 static int GetMax(int[] arr)
